@@ -48,9 +48,11 @@ string output_dir = "outputs_test";              // Carpeta de salida
 ---
 
 ## ⚠✅ Requisitos
+```
 C++17 o superior
 Compatibilidad con OpenMP ( -fopenmp)
 Python 3.x
 Memoria recomendada: 8 GB+
 Disco con al menos 20 GB de espacio libre
+```
 ---
