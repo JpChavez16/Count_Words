@@ -32,9 +32,9 @@ const size_t FILE_SIZE_BYTES = FILE_SIZE_GB * 1024 * 1024 * 1024;
 string input_file = "inputs/palabras_base.txt";  // Archivo base (7MB aprox.)
 string output_file = "archivo_20GB.txt";         // Archivo de salida
 string output_dir = "outputs_test";              // Carpeta de salida
+```
 
-
-📁 Estructura del proyecto
+## ⚠📁 Estructura del proyecto
 
 ├── generar_archivo.cpp         # Generador del archivo de 20GB
 ├── contar_palabras.py          # Word count secuencial en Python
@@ -44,7 +44,7 @@ string output_dir = "outputs_test";              // Carpeta de salida
 ├── outputs_test/               # Carpeta para resultados (NO incluida en el repo)
 └── README.md                   # Este documento
 
-✅ Requisitos
+## ⚠✅ Requisitos
 C++17 o superior
 Compatibilidad con OpenMP ( -fopenmp)
 Python 3.x
