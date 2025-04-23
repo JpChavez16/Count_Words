@@ -33,6 +33,7 @@ string input_file = "inputs/palabras_base.txt";  // Archivo base (7MB aprox.)
 string output_file = "archivo_20GB.txt";         // Archivo de salida
 string output_dir = "outputs_test";              // Carpeta de salida
 ```
+---
 
 ## ⚠📁 Estructura del proyecto
 
@@ -55,4 +56,4 @@ Python 3.x
 Memoria recomendada: 8 GB+
 Disco con al menos 20 GB de espacio libre
 ```
----
+
