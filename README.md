@@ -36,6 +36,7 @@ string output_dir = "outputs_test";              // Carpeta de salida
 
 ## ⚠📁 Estructura del proyecto
 
+```
 ├── generar_archivo.cpp         # Generador del archivo de 20GB
 ├── contar_palabras.py          # Word count secuencial en Python
 ├── wordcount_parallel.cpp      # Word count paralelo con OpenMP
@@ -43,6 +44,8 @@ string output_dir = "outputs_test";              // Carpeta de salida
 │   └── palabras_base.txt       # Archivo de palabras en español (~7MB)
 ├── outputs_test/               # Carpeta para resultados (NO incluida en el repo)
 └── README.md                   # Este documento
+```
+---
 
 ## ⚠✅ Requisitos
 C++17 o superior
@@ -50,3 +53,4 @@ Compatibilidad con OpenMP ( -fopenmp)
 Python 3.x
 Memoria recomendada: 8 GB+
 Disco con al menos 20 GB de espacio libre
+---
